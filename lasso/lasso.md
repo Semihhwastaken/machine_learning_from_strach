@@ -227,8 +227,10 @@ $$\frac{\partial}{\partial w_j} \lambda |w_j| = \lambda \cdot \text{sign}(w_j)$$
     Gradyanlar, kayıp fonksiyonunun türevleri kullanılarak hesaplanır. Kayıp fonksiyonu Lasso Regresyonda şu şekildedir:
 
 $$L(w,b) = \frac{1}{n} \sum_{i=1}^n (y_i - \hat{y}_i)^2 + \lambda \sum_{j=1}^n |w_j|$$
+		
     Hataların ortalama karesel değeri (MSE - Mean Squared Error):
 $$\frac{1}{n} \sum_{i=1}^n (y_i - \hat{y}_i)^2$$ 
+
     L1 düzenlileştirme terimi, ağırlıkların cezalandırılmasını sağlar:
 $$\lambda \sum_{j=1}^n |w_j|$$
     
